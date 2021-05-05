@@ -26,7 +26,7 @@ class ChatApplication:
     def window_configure(self):
         self.window.title("Hanna is online")
         self.window.resizable(width=False, height=False)
-        self.window.configure(width=470, height=550, bg=chatStyles.BG_COLOR)
+        self.window.configure(width=500, height=550, bg=chatStyles.BG_COLOR)
 
     def head_lable(self):
         head_lable = Label(self.window, bg=chatStyles.BG_COLOR, fg=chatStyles.TEXT_COLOR,
@@ -59,7 +59,7 @@ class ChatApplication:
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
         send_button = Button(bottom_label, text="Send", font=chatStyles.FONT_BOLD,
-                                width=20, bg=chatStyles.BG_GRAY,
+                                width=20, bg=chatStyles.BT_COLOR,
                                 command=lambda: self._on_enter_pressed(None))
         send_button.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)
 

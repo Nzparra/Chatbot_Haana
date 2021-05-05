@@ -11,6 +11,7 @@
         "Good day"
       ],
       "responses": [
+        "Hey ;)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -36,7 +37,8 @@
         "Which items do you have?",
         "What kinds of items are there?",
         "What do you sell?",
-        "What i can buy?"
+        "What i can buy?",
+        "I'm hungry, can you help me"
       ],
       "responses": [
         "We sell hotdogs",
