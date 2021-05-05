@@ -11,7 +11,6 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -73,7 +72,7 @@
       "tag": "hotdog",
       "patterns": [
         "What ingredients does the hotdog have",
-        "The hot doghas onion?"
+        "The hotdog has onion?"
       ],
       "responses": [
         "The hot dog made with a grilled sausage on dog bun, refried beans, guacamole, and corn tortillas.",
@@ -88,6 +87,16 @@
       ],
       "responses": [
         "all our orders include a free Coke."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?"
+      ],
+      "responses": [
+        "We're open every day 12pm-10pm"
       ]
     }
   ]
