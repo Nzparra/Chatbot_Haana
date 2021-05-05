@@ -11,7 +11,7 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey ;)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -37,7 +37,8 @@
         "Which items do you have?",
         "What kinds of items are there?",
         "What do you sell?",
-        "What i can buy?"
+        "What i can buy?",
+        "I'm hungry, can you help me"
       ],
       "responses": [
         "We sell hotdogs",
@@ -72,8 +73,8 @@
     {
       "tag": "hotdog",
       "patterns": [
-        "What ingredients does the hotdog have",
-        "The hot doghas onion?"
+        "What ingredients does the hotdog have?",
+        "The hotdog has onion?"
       ],
       "responses": [
         "The hot dog made with a grilled sausage on dog bun, refried beans, guacamole, and corn tortillas.",
