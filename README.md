@@ -20,6 +20,7 @@ Linux:
 Windows:
 ```console
 venv\Scripts\activate
+ ```
 
 ### Install Dependencies
 
