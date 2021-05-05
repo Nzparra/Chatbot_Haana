@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What i can buy?"
+      ],
+      "responses": [
+        "We sell hotdogs",
+        "We have hotdogs"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 20-40 minutes",
+        "Shipping takes 20-40 minutes"
+      ]
+    },
+    {
+      "tag": "hotdog",
+      "patterns": [
+        "What ingredients does the hot dog have",
+        "The hot dog has onion?"
+      ],
+      "responses": [
+        "The hot dog made with a grilled sausage on dog bun, refried beans, guacamole, and corn tortillas.",
+        "It has delicious grilled sausage on dog bun, mozzarella cheese, delicious pineapple, crushed potato chips, and sauces."
+      ]
+    },
+    {
+      "tag": "drink",
+      "patterns": [
+        "Can I add a Coke?",
+        "The order brings drinks?"
+      ],
+      "responses": [
+        "all our orders include a free Coke."
+      ]
+    }
+  ]
+}
