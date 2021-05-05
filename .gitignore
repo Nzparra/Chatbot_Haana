@@ -1,4 +1,3 @@
-
 __pycache__/nltk_utils.cpython-39.pyc
 *.pyc
-*.pyc
+__pycache__/model.cpython-39.pyc
