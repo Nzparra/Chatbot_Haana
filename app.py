@@ -4,10 +4,12 @@ from chat_styles import chatStyles
 
 
 
+
 class ChatApplication:
 
     def __init__(self):
         self.window = Tk()
+        self.window.iconbitmap("favicon.ico")
         self._setup_main_window()
 
     def run(self):
