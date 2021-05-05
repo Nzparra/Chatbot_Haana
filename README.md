@@ -32,6 +32,7 @@ Run this once in your terminal:
 $ python
 >>> import nltk
 >>> nltk.download('punkt')
+```
 
 ## Usage
 Run
